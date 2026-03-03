@@ -30,17 +30,17 @@
 
   <!-- Stats Bar -->
   <g transform="translate(300, 215)">
-    <!-- 28 Weeks -->
+    <!-- 34 Weeks -->
     <g>
       <rect x="0" y="0" width="150" height="50" rx="8" fill="#2a2a2a"/>
-      <text x="75" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#f0db4f">28</text>
+      <text x="75" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#f0db4f">34</text>
       <text x="75" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle" fill="#888888">WEEKS</text>
     </g>
 
-    <!-- 224 Hours -->
+    <!-- 272 Hours -->
     <g transform="translate(175, 0)">
       <rect x="0" y="0" width="150" height="50" rx="8" fill="#2a2a2a"/>
-      <text x="75" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#f0db4f">224</text>
+      <text x="75" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" text-anchor="middle" fill="#f0db4f">272</text>
       <text x="75" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="13" text-anchor="middle" fill="#888888">HOURS</text>
     </g>
 
