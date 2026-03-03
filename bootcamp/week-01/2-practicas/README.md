@@ -1,161 +1,61 @@
-# 💻 Ejercicios Prácticos - Semana 1
+# 💻 Ejercicios Prácticos — Semana 1
 
-> **📝 Nota Importante**: Estos ejercicios son **material de aprendizaje guiado** y **NO se entregan**. Su propósito es prepararte para el proyecto final, que es el único entregable obligatorio de esta semana.
-
-## 📋 Descripción
-
-Esta carpeta contiene ejercicios guiados para practicar los conceptos aprendidos en la teoría de la Semana 1. Completa estos ejercicios para estar preparado para el [Proyecto Final](../3-proyecto/README.md), que es el único entregable que debes entregar.
+> **📝 Nota**: Estos ejercicios son **material de aprendizaje guiado** y **NO se entregan**. Te preparan para el proyecto final, que es el único entregable de la semana.
 
 ---
 
-## 🎯 Objetivos
+## 📋 Cómo Usar los Ejercicios
 
-- Aplicar conocimientos de `let` y `const`
-- Practicar template literals
-- Dominar arrow functions
-- Implementar destructuring en casos reales
+Cada ejercicio usa el formato de **descomentar para aprender**:
+
+1. Lee el `README.md` del ejercicio
+2. Abre `starter/index.js`
+3. Descomenta el código de cada paso siguiendo las instrucciones
+4. Ejecuta con `node starter/index.js` para ver el resultado
+5. Compara con `solution/index.js` si tienes dudas
 
 ---
 
-## 📂 Estructura de Ejercicios
+## 📂 Ejercicios de la Semana
 
-Cada ejercicio contiene:
+| # | Ejercicio | Concepto | Duración |
+|---|-----------|----------|----------|
+| 01 | [Mi primer script](ejercicio-01-primer-script/) | console.log() con diferentes tipos de datos | 35 min |
+| 02 | [Comentarios](ejercicio-02-comentarios/) | Comentarios de una línea, multilínea e inline | 35 min |
+| 03 | [Tipos de datos](ejercicio-03-tipos-datos/) | typeof y los tres tipos primitivos | 35 min |
+| 04 | [Mi primer programa](ejercicio-04-primer-programa/) | Ciclo Entrada → Proceso → Salida | 35 min |
+| 05 | [Expresiones](ejercicio-05-expresiones/) | Literales vs expresiones evaluadas | 20 min |
+
+**Total estimado: 3 horas**
+
+---
+
+## 📁 Estructura de Cada Ejercicio
 
 ```
 ejercicio-XX-nombre/
-├── README.md           # Instrucciones detalladas
-├── starter/            # Código inicial para comenzar
-│   └── index.js
-├── solution/           # Solución completa comentada
-│   └── index.js
-└── tests/              # Tests opcionales (para verificar)
-    └── index.test.js
+├── README.md           ← Instrucciones y pasos guiados
+├── starter/
+│   └── index.js        ← Tu punto de partida (código comentado)
+└── solution/
+    └── index.js        ← Solución completa (úsala como referencia)
 ```
 
 ---
 
-## 📝 Lista de Ejercicios
-
-### 1️⃣ [Ejercicio 01: Variables Modernas](ejercicio-01-variables/)
-- **Duración**: 45 minutos
-- **Nivel**: Básico
-- **Conceptos**: `let`, `const`, block scope
-- **Objetivo**: Dominar el uso correcto de variables modernas
-
-### 2️⃣ [Ejercicio 02: Template Literals](ejercicio-02-templates/)
-- **Duración**: 45 minutos
-- **Nivel**: Básico
-- **Conceptos**: Template literals, interpolación, multilínea
-- **Objetivo**: Crear strings dinámicos y legibles
-
-### 3️⃣ [Ejercicio 03: Arrow Functions](ejercicio-03-arrows/)
-- **Duración**: 45 minutos
-- **Nivel**: Básico
-- **Conceptos**: Arrow functions, retorno implícito, callbacks
-- **Objetivo**: Escribir funciones concisas y modernas
-
-### 4️⃣ [Ejercicio 04: Destructuring](ejercicio-04-destructuring/)
-- **Duración**: 45 minutos
-- **Nivel**: Intermedio
-- **Conceptos**: Destructuring de objetos y arrays, valores por defecto
-- **Objetivo**: Simplificar acceso a datos complejos
-
----
-
-## 🚀 Cómo Usar los Ejercicios
-
-### Paso 1: Leer el README del Ejercicio
-
-Cada ejercicio tiene instrucciones detalladas sobre qué hacer.
-
-### Paso 2: Comenzar con el Código Starter
+## 🏃 Ejecutar un Ejercicio
 
 ```bash
-cd ejercicio-01-variables/starter
-```
+# Desde la carpeta de la semana:
+node 2-practicas/ejercicio-01-primer-script/starter/index.js
 
-Abre `index.js` y comienza a programar.
-
-### Paso 3: Ejecutar el Código
-
-```bash
-node index.js
-```
-
-### Paso 4: Verificar con Tests (Opcional)
-
-```bash
-cd ../tests
-npm install  # Solo la primera vez
-npm test
-```
-
-### Paso 5: Comparar con la Solución
-
-Una vez que hayas intentado resolver el ejercicio, compara tu código con la solución:
-
-```bash
-cd ../solution
-cat index.js
+# O desde dentro de la carpeta del ejercicio:
+cd 2-practicas/ejercicio-01-primer-script
+node starter/index.js
 ```
 
 ---
 
-## 📊 Propósito de los Ejercicios
+## ➡️ Después de las Prácticas
 
-> **Estos ejercicios NO se entregan**. Son herramientas de aprendizaje para prepararte para el proyecto final.
-
-Los ejercicios te ayudan a:
-
-- ✅ **Practicar** conceptos de forma guiada y estructurada
-- ✅ **Experimentar** con código sin presión de evaluación
-- ✅ **Prepararte** para aplicar los conceptos en el proyecto final
-- ✅ **Identificar** áreas donde necesitas más estudio
-- ✅ **Desarrollar** confianza antes del proyecto entregable
-
-**El único entregable**: [Proyecto de Tarjeta de Presentación](../3-proyecto/README.md)
-
----
-
-## 💡 Consejos
-
-> **📌 Tip 1**: No mires la solución hasta haber intentado resolver el ejercicio por tu cuenta.
-
-> **📌 Tip 2**: Si te atascas, revisa la teoría correspondiente.
-
-> **📌 Tip 3**: Experimenta con variaciones del código para entender mejor.
-
-> **📌 Tip 4**: Usa `console.log()` para verificar tus resultados.
-
----
-
-## ❓ ¿Problemas?
-
-Si encuentras errores o tienes dudas:
-
-1. Revisa el README del ejercicio
-2. Consulta la teoría relacionada
-3. Verifica la sintaxis con MDN
-4. Compara con la solución
-5. Pide ayuda en Discussions
-
----
-
-## ✅ Checklist de Progreso
-
-> **Recuerda**: Completar estos ejercicios te prepara para el proyecto final (único entregable).
-
-- [ ] Ejercicio 01: Variables Modernas
-- [ ] Ejercicio 02: Template Literals
-- [ ] Ejercicio 03: Arrow Functions
-- [ ] Ejercicio 04: Destructuring
-- [ ] Todos los tests pasan (opcional)
-- [ ] Código revisado y comprendido
-- [ ] **Listo para comenzar el [Proyecto Final](../3-proyecto/README.md)** ⭐
-
----
-
-<p align="center">
-  <strong>💪 ¡A practicar!</strong><br>
-  <em>La práctica hace al maestro</em>
-</p>
+Una vez completados los ejercicios, ve al [Proyecto](../3-proyecto/) para construir tu entregable final.
