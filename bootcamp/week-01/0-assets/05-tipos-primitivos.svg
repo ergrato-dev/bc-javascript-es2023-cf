@@ -14,7 +14,7 @@
   <text x="141" y="107" text-anchor="middle" font-size="14" font-weight="700" fill="#f6ad55">String</text>
   <text x="141" y="122" text-anchor="middle" font-size="10" fill="#fbd38d">Texto (cadena de caracteres)</text>
 
-  <rect x="46" y="128" width="190" height="112" rx="6" fill="#0d1117"/>
+  <rect x="46" y="128" width="190" height="124" rx="6" fill="#0d1117"/>
   <text x="58" y="148" font-size="11" font-family="'Courier New', monospace" fill="#68d391">const</text>
   <text x="104" y="148" font-size="11" font-family="'Courier New', monospace" fill="#e2e8f0"> name = </text>
   <text x="164" y="148" font-size="11" font-family="'Courier New', monospace" fill="#f6ad55">'Ana'</text>
@@ -23,7 +23,7 @@
   <text x="163" y="166" font-size="11" font-family="'Courier New', monospace" fill="#f6ad55">"Bogotá"</text>
   <text x="58" y="184" font-size="11" font-family="'Courier New', monospace" fill="#68d391">const</text>
   <text x="104" y="184" font-size="11" font-family="'Courier New', monospace" fill="#e2e8f0"> msg = </text>
-  <text x="155" y="184" font-size="11" font-family="'Courier New', monospace" fill="#f6ad55">`Hola ${"{"}name{"}"}`</text>
+  <text x="155" y="184" font-size="9" font-family="'Courier New', monospace" fill="#f6ad55">`Hola ${"{"}name{"}"}`</text>
 
   <line x1="58" y1="196" x2="220" y2="196" stroke="#2d3748" stroke-width="1"/>
   <text x="58" y="212" font-size="10" fill="#718096">Comillas simples </text>
@@ -35,11 +35,9 @@
   <text x="158" y="244" font-size="9" fill="#4a5568">← preferidas</text>
 
   <!-- typeof string -->
-  <rect x="30" y="258" width="222" height="28" rx="0" fill="#4a2200"/>
-  <rect x="30" y="258" width="222" height="28" rx="0" fill="#4a2200"/>
-  <rect x="30" y="268" width="222" height="18" rx="0" fill="#4a2200"/>
-  <rect x="30" y="270" width="222" height="22" rx="0,0,10,10" fill="#4a2200"/>
-  <text x="141" y="277" text-anchor="middle" font-size="10" font-family="'Courier New', monospace" fill="#f6ad55">typeof 'Ana'  →  "string"</text>
+  <rect x="30" y="252" width="222" height="28" rx="0" fill="#4a2200"/>
+  <rect x="30" y="263" width="222" height="17" rx="0" fill="#4a2200"/>
+  <text x="141" y="272" text-anchor="middle" font-size="10" font-family="'Courier New', monospace" fill="#f6ad55">typeof 'Ana'  →  "string"</text>
 
   <!-- ══════════ NUMBER ══════════ -->
   <rect x="289" y="84" width="222" height="168" rx="10" fill="#16213e" stroke="#68d391" stroke-width="2"/>
@@ -48,7 +46,7 @@
   <text x="400" y="107" text-anchor="middle" font-size="14" font-weight="700" fill="#68d391">Number</text>
   <text x="400" y="122" text-anchor="middle" font-size="10" fill="#9ae6b4">Enteros y decimales</text>
 
-  <rect x="305" y="128" width="190" height="112" rx="6" fill="#0d1117"/>
+  <rect x="305" y="128" width="190" height="124" rx="6" fill="#0d1117"/>
   <text x="317" y="148" font-size="11" font-family="'Courier New', monospace" fill="#68d391">const</text>
   <text x="363" y="148" font-size="11" font-family="'Courier New', monospace" fill="#e2e8f0"> age = </text>
   <text x="413" y="148" font-size="11" font-family="'Courier New', monospace" fill="#90cdf4">25</text>
@@ -77,7 +75,7 @@
   <text x="659" y="107" text-anchor="middle" font-size="14" font-weight="700" fill="#9f7aea">Boolean</text>
   <text x="659" y="122" text-anchor="middle" font-size="10" fill="#d6bcfa">Solo dos valores posibles</text>
 
-  <rect x="564" y="128" width="190" height="112" rx="6" fill="#0d1117"/>
+  <rect x="564" y="128" width="190" height="124" rx="6" fill="#0d1117"/>
   <text x="576" y="148" font-size="11" font-family="'Courier New', monospace" fill="#68d391">const</text>
   <text x="622" y="148" font-size="11" font-family="'Courier New', monospace" fill="#e2e8f0"> active = </text>
   <text x="682" y="148" font-size="11" font-family="'Courier New', monospace" fill="#9f7aea">true</text>

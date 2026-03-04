@@ -67,5 +67,5 @@
   <!-- ===== CORTOCIRCUITO ===== -->
   <rect x="40" y="325" width="720" height="44" rx="8" fill="#16213e" stroke="#4fc3f7" stroke-width="1.5"/>
   <text x="400" y="344" text-anchor="middle" font-size="13" font-weight="700" fill="#4fc3f7">Cortocircuito (short-circuit)</text>
-  <text x="400" y="362" text-anchor="middle" font-size="12" fill="#a0a0c0">&&  se detiene en el primer falsy    |    ||  se detiene en el primer truthy</text>
+  <text x="400" y="362" text-anchor="middle" font-size="12" fill="#a0a0c0">&amp;&amp;  se detiene en el primer falsy    |    ||  se detiene en el primer truthy</text>
 </svg>

@@ -62,5 +62,6 @@
   <text x="420" y="332" font-family="'Courier New', monospace" font-size="11" fill="#ef5350">1 + 2 + "3" = "33"</text>
   <text x="40" y="350" font-family="system-ui, sans-serif" font-size="10" fill="#888888">implícita ✗</text>
   <text x="200" y="350" font-family="system-ui, sans-serif" font-size="10" fill="#4caf50">explícita ✓</text>
-  <text x="600" y="340" font-family="system-ui, sans-serif" font-size="11" fill="#888888">Solución: convierte antes de operar con Number() · String() · Boolean()</text>
+  <text x="600" y="332" font-family="system-ui, sans-serif" font-size="10" fill="#888888">Solución: convierte antes de operar</text>
+  <text x="600" y="348" font-family="'Courier New', monospace" font-size="10" fill="#888888">Number() · String() · Boolean()</text>
 </svg>

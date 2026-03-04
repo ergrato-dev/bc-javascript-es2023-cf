@@ -34,9 +34,9 @@
   <text x="620" y="128" text-anchor="middle" font-size="13" font-weight="600" fill="#4fc3f7">"mango"</text>
 
   <!-- Flechas de acceso (for...of toma valores directamente) -->
-  <text x="720" y="96" font-size="22" fill="#81c784">←</text>
-  <text x="700" y="116" text-anchor="middle" font-size="10" fill="#81c784">for...of</text>
-  <text x="700" y="130" text-anchor="middle" font-size="10" fill="#81c784">toma valores</text>
+  <text x="698" y="96" font-size="22" fill="#81c784">←</text>
+  <text x="752" y="110" text-anchor="middle" font-size="10" fill="#81c784">for...of</text>
+  <text x="752" y="124" text-anchor="middle" font-size="10" fill="#81c784">toma valores</text>
 
   <!-- ═══════════════════════════════════════════════ -->
   <!-- Panel izquierdo: for clásico vs for...of        -->

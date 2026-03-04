@@ -32,7 +32,7 @@
   <rect x="20" y="270" width="420" height="185" rx="8" fill="#16213e" stroke="#4fc3f7" stroke-width="1.5"/>
   <text x="230" y="291" text-anchor="middle" fill="#4fc3f7" font-size="14" font-weight="bold">for...in — Iterar Propiedades</text>
 
-  <text x="36" y="314" fill="#e0e0e0" font-size="12" font-family="monospace">const config = { host: "localhost", port: 3000, debug: false };</text>
+  <text x="36" y="314" fill="#e0e0e0" font-size="10" font-family="monospace">const config = { host: "localhost", port: 3000, debug: false };</text>
   <text x="36" y="336" fill="#e0e0e0" font-size="12" font-family="monospace">for (const key in config) {</text>
   <text x="36" y="354" fill="#4fc3f7" font-size="12" font-family="monospace">  console.log(`${key}: ${config[key]}`);</text>
   <text x="36" y="372" fill="#e0e0e0" font-size="12" font-family="monospace">}</text>

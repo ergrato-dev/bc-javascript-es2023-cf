@@ -8,13 +8,13 @@
   <text x="440" y="94" text-anchor="middle" fill="#e0e0e0" font-size="13" font-family="monospace">const scores = { math: 85, history: 72, science: 91, language: 78 };</text>
 
   <!-- PANEL Object.keys -->
-  <rect x="20" y="126" width="268" height="180" rx="8" fill="#16213e" stroke="#4fc3f7" stroke-width="1.5"/>
+  <rect x="20" y="126" width="268" height="196" rx="8" fill="#16213e" stroke="#4fc3f7" stroke-width="1.5"/>
   <text x="154" y="147" text-anchor="middle" fill="#4fc3f7" font-size="14" font-weight="bold">Object.keys()</text>
   <text x="154" y="163" text-anchor="middle" fill="#aaa" font-size="11">Retorna array de claves</text>
 
   <text x="36" y="186" fill="#e0e0e0" font-size="12" font-family="monospace">Object.keys(scores)</text>
   <rect x="36" y="196" width="236" height="28" rx="4" fill="#1a1a2e"/>
-  <text x="154" y="215" text-anchor="middle" fill="#81c784" font-size="12" font-family="monospace">["math","history","science","language"]</text>
+  <text x="154" y="215" text-anchor="middle" fill="#81c784" font-size="10" font-family="monospace">["math","history","science","language"]</text>
 
   <text x="36" y="248" fill="#aaa" font-size="11">Uso típico:</text>
   <text x="36" y="264" fill="#e0e0e0" font-size="12" font-family="monospace">Object.keys(scores)</text>
@@ -23,7 +23,7 @@
   <text x="36" y="312" fill="#e0e0e0" font-size="12" font-family="monospace">  });</text>
 
   <!-- PANEL Object.values -->
-  <rect x="316" y="126" width="268" height="180" rx="8" fill="#16213e" stroke="#81c784" stroke-width="1.5"/>
+  <rect x="316" y="126" width="268" height="196" rx="8" fill="#16213e" stroke="#81c784" stroke-width="1.5"/>
   <text x="450" y="147" text-anchor="middle" fill="#81c784" font-size="14" font-weight="bold">Object.values()</text>
   <text x="450" y="163" text-anchor="middle" fill="#aaa" font-size="11">Retorna array de valores</text>
 
@@ -32,13 +32,13 @@
   <text x="450" y="215" text-anchor="middle" fill="#81c784" font-size="12" font-family="monospace">[ 85, 72, 91, 78 ]</text>
 
   <text x="332" y="248" fill="#aaa" font-size="11">Uso típico (promedio):</text>
-  <text x="332" y="264" fill="#e0e0e0" font-size="12" font-family="monospace">const vals = Object.values(scores);</text>
+  <text x="332" y="264" fill="#e0e0e0" font-size="11" font-family="monospace">const vals = Object.values(scores);</text>
   <text x="332" y="280" fill="#e0e0e0" font-size="12" font-family="monospace">const avg = vals.reduce(</text>
   <text x="332" y="296" fill="#e0e0e0" font-size="12" font-family="monospace">  (s,v) =&gt; s + v, 0</text>
   <text x="332" y="312" fill="#e0e0e0" font-size="12" font-family="monospace">) / vals.length;</text>
 
   <!-- PANEL Object.entries -->
-  <rect x="612" y="126" width="268" height="180" rx="8" fill="#16213e" stroke="#ce93d8" stroke-width="1.5"/>
+  <rect x="612" y="126" width="268" height="196" rx="8" fill="#16213e" stroke="#ce93d8" stroke-width="1.5"/>
   <text x="746" y="147" text-anchor="middle" fill="#ce93d8" font-size="14" font-weight="bold">Object.entries()</text>
   <text x="746" y="163" text-anchor="middle" fill="#aaa" font-size="11">Retorna array de [clave, valor]</text>
 

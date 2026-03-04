@@ -44,7 +44,7 @@
   <text x="324" y="298" fill="#e0e0e0" font-size="11" font-family="monospace">const product = {</text>
   <text x="324" y="315" fill="#e0e0e0" font-size="11" font-family="monospace">  id: 1, name: "Laptop", price: 1200</text>
   <text x="324" y="332" fill="#e0e0e0" font-size="11" font-family="monospace">};</text>
-  <text x="324" y="354" fill="#e0e0e0" font-size="11" font-family="monospace">const updated = { ...product, price: 999 };</text>
+  <text x="324" y="354" fill="#e0e0e0" font-size="9" font-family="monospace">const updated = { ...product, price: 999 };</text>
   <rect x="324" y="363" width="238" height="24" rx="4" fill="#1a1a2e"/>
   <text x="443" y="380" text-anchor="middle" fill="#ce93d8" font-size="11" font-family="monospace">{ id:1, name:"Laptop", price:999 }</text>
   <text x="324" y="403" fill="#81c784" font-size="10">✅ product.price sigue siendo 1200</text>
