@@ -23,7 +23,7 @@ Al finalizar esta semana, el estudiante será capaz de:
 ## 🗂️ Estructura de la Semana
 
 ```
-week-09/
+week-09-objetos/
 ├── README.md
 ├── rubrica-evaluacion.md
 ├── 0-assets/
@@ -116,4 +116,4 @@ week-09/
 
 | ← Anterior                                 | Siguiente →                                                     |
 | ------------------------------------------ | --------------------------------------------------------------- |
-| [Semana 08 — Arrays](../week-08/README.md) | [Semana 10 — Proyecto Integrador Etapa 0](../week-10/README.md) |
+| [Semana 08 — Arrays](../week-08-arrays/README.md) | [Semana 10 — Proyecto Integrador Etapa 0](../week-10-proyecto-integrador/README.md) |

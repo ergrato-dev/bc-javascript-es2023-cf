@@ -18,10 +18,10 @@
 
 ```bash
 # Ejercicio 01
-node bootcamp/week-07/2-practicas/ejercicio-01-declaracion/starter/index.js
+node bootcamp/week-07-funciones/2-practicas/ejercicio-01-declaracion/starter/index.js
 
 # Ejercicio 02
-node bootcamp/week-07/2-practicas/ejercicio-02-arrow-functions/starter/index.js
+node bootcamp/week-07-funciones/2-practicas/ejercicio-02-arrow-functions/starter/index.js
 ```
 
 ---

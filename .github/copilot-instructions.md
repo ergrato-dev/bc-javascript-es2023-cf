@@ -77,8 +77,11 @@ Al finalizar el bootcamp, los estudiantes serán capaces de:
 
 Cada semana sigue esta estructura estándar:
 
+> **Convención de nombres**: `week-XX-tema-principal` (ej: `week-07-funciones`, `week-08-arrays`).
+> El slug del tema se extrae del título del README en kebab-case sin tildes.
+
 ```
-bootcamp/week-XX/
+bootcamp/week-XX-tema-principal/
 ├── README.md                 # Descripción y objetivos de la semana
 ├── rubrica-evaluacion.md     # Criterios de evaluación detallados
 ├── 0-assets/                 # Imágenes, diagramas y recursos visuales
@@ -135,7 +138,7 @@ Al desarrollar el contenido de una nueva semana, seguir **siempre** este orden:
 - Soluciones comentadas
 - Casos de uso del mundo real
 
-#### 📋 Formato de Ejercicios (Referencia: week-05)
+#### 📋 Formato de Ejercicios (Referencia: week-05-condicionales)
 
 Los ejercicios son **tutoriales guiados**, NO tareas con TODOs. El estudiante aprende descomentando código:
 
@@ -762,7 +765,7 @@ Cuando trabajes en este proyecto:
 
 - **Repositorio**: https://github.com/epti-dev/bc-javascript-es2023
 - **Documentación general**: [\_docs/README.md](_docs/README.md)
-- **Primera semana**: [bootcamp/week-01/README.md](bootcamp/week-01/README.md)
+- **Primera semana**: [bootcamp/week-01-que-es-programar/README.md](bootcamp/week-01-que-es-programar/README.md)
 
 ---
 

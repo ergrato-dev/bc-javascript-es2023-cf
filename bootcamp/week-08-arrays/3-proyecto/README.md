@@ -87,7 +87,7 @@ Tu script debe demostrar el uso de los siguientes elementos:
 ## 🚀 Cómo ejecutar
 
 ```bash
-# Desde la carpeta week-08/3-proyecto
+# Desde la carpeta week-08-arrays/3-proyecto
 node starter/script.js
 ```
 

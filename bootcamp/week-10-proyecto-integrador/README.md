@@ -42,7 +42,7 @@ Al finalizar esta semana, serás capaz de:
 ## 🗂️ Estructura de la Semana
 
 ```
-week-10/
+week-10-proyecto-integrador/
 ├── README.md                     ← este archivo
 ├── rubrica-evaluacion.md
 ├── 0-assets/
@@ -112,4 +112,4 @@ La aplicación debe integrar **todos** los conceptos de las semanas 1 a 9:
 
 ## 🔗 Navegación
 
-[← Semana 09: Objetos](../week-09/README.md) | [Semana 11: Repaso y Profundización →](../week-11/README.md)
+[← Semana 09: Objetos](../week-09-objetos/README.md) | [Semana 11: Repaso y Profundización →](../week-11/README.md)

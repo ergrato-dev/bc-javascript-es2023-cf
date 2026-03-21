@@ -48,6 +48,6 @@ node 2-practicas/ejercicio-02-integracion/solution/index.js
 
 ## 🔗 Navegación
 
-- [← Semana 09](../../week-09/README.md)
+- [← Semana 09](../../week-09-objetos/README.md)
 - [📋 README de la semana](../README.md)
 - [🚀 Ir al Proyecto →](../3-proyecto/README.md)

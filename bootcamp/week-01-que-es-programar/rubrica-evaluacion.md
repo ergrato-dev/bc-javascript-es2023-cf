@@ -130,7 +130,7 @@ Antes de entregar, verifica:
 El aprendiz sube el archivo `script.js` al repositorio con el mensaje de commit:
 
 ```
-feat(week-01): proyecto mi-presentacion
+feat(week-01-que-es-programar): proyecto mi-presentacion
 ```
 
 ---

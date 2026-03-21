@@ -129,7 +129,7 @@ Total registros: 12
 ## 🏃 Cómo Ejecutar
 
 ```bash
-cd bootcamp/week-01/3-proyecto
+cd bootcamp/week-01-que-es-programar/3-proyecto
 node starter/script.js
 ```
 
@@ -170,4 +170,4 @@ R: Si tu dominio es distinto, aplica la misma lógica: elige una entidad princip
 ## 🔗 Navegación
 
 ⬅️ [Volver a Prácticas](../2-practicas/)
-➡️ [Semana 2: Variables y Tipos de Datos](../../week-02/README.md)
+➡️ [Semana 2: Variables y Tipos de Datos](../../week-02-variables-tipos-datos/README.md)

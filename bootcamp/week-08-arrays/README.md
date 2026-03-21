@@ -32,7 +32,7 @@ Debes tener dominio de:
 ## 🗂️ Estructura de la Semana
 
 ```
-week-08/
+week-08-arrays/
 ├── README.md                          ← este archivo
 ├── rubrica-evaluacion.md              ← criterios de evaluación
 ├── 0-assets/                          ← diagramas SVG
@@ -129,4 +129,4 @@ Viernes   → Proyecto: inventario.js + revisión del instructor
 
 | ← Anterior                                    | Inicio                                | Siguiente →                                 |
 | --------------------------------------------- | ------------------------------------- | ------------------------------------------- |
-| [Semana 07 — Funciones](../week-07/README.md) | [Bootcamp JS ES2023](../../README.md) | [Semana 09 — Objetos](../week-09/README.md) |
+| [Semana 07 — Funciones](../week-07-funciones/README.md) | [Bootcamp JS ES2023](../../README.md) | [Semana 09 — Objetos](../week-09-objetos/README.md) |

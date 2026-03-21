@@ -226,7 +226,7 @@ This project is under the MIT License - see the [LICENSE](LICENSE) file for deta
 </p>
 
 <p align="center">
-  <a href="bootcamp/week-01">Start Week 1</a> •
+  <a href="bootcamp/week-01-que-es-programar">Start Week 1</a> •
   <a href="_docs">View Documentation</a> •
   <a href="../../issues">Report Issue</a> •
   <a href="CONTRIBUTING.md">Contribute</a>

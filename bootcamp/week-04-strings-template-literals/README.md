@@ -27,7 +27,7 @@ Al finalizar esta semana serás capaz de:
 ## 🗂️ Estructura de la semana
 
 ```
-week-04/
+week-04-strings-template-literals/
 ├── README.md                          ← estás aquí
 ├── rubrica-evaluacion.md
 ├── 0-assets/                          ← diagramas SVG
@@ -119,4 +119,4 @@ week-04/
 
 ## 🔗 Navegación
 
-[← Semana 03](../week-03/README.md) | [Semana 05 →](../week-05/README.md)
+[← Semana 03](../week-03-operadores-expresiones/README.md) | [Semana 05 →](../week-05-condicionales/README.md)

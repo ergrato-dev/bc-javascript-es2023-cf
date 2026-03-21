@@ -27,7 +27,7 @@ Al finalizar esta semana, serás capaz de:
 ## 🗂️ Estructura de la Semana
 
 ```
-week-01/
+week-01-que-es-programar/
 ├── README.md                        # Este archivo
 ├── RETO-SEMANAL.md                  # Reto extra (opcional)
 ├── rubrica-evaluacion.md            # Criterios de evaluación
@@ -182,7 +182,7 @@ Antes de pasar a la Semana 2, asegúrate de:
 ## 🔗 Navegación
 
 ⬅️ **Anterior**: [Inicio del Bootcamp](../../README.md)
-➡️ **Siguiente**: [Semana 2: Variables y Tipos de Datos](../week-02/README.md)
+➡️ **Siguiente**: [Semana 2: Variables y Tipos de Datos](../week-02-variables-tipos-datos/README.md)
 
 ---
 

@@ -146,7 +146,7 @@ git checkout -b docs/mejorar-readme-semana-10
 ```bash
 # Usar Conventional Commits
 git add .
-git commit -m "feat(week-03): add array methods practice"
+git commit -m "feat(week-03-operadores-expresiones): add array methods practice"
 ```
 
 ### 5. Push y Pull Request
@@ -265,10 +265,10 @@ Usamos [Conventional Commits](https://www.conventionalcommits.org/) para mensaje
 #### Ejemplos:
 
 ```bash
-feat(week-05): add async/await exercises
-fix(week-03): correct typo in array methods theory
+feat(week-05-condicionales): add async/await exercises
+fix(week-03-operadores-expresiones): correct typo in array methods theory
 docs(readme): update installation instructions
-style(week-08): format code with prettier
+style(week-08-arrays): format code with prettier
 refactor(week-12): simplify DOM manipulation examples
 test(week-15): add unit tests for fetch examples
 chore: update dependencies
@@ -278,7 +278,7 @@ chore: update dependencies
 
 El alcance debe indicar la semana o área afectada:
 
-- `week-01`, `week-02`, etc. para semanas específicas
+- `week-01-que-es-programar`, `week-02-variables-tipos-datos`, etc. para semanas específicas
 - `docs` para documentación general
 - `scripts` para herramientas
 - `config` para configuraciones

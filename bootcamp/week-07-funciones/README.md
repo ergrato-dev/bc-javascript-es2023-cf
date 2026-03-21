@@ -33,7 +33,7 @@ Al finalizar esta semana, serás capaz de:
 ## 🗂️ Estructura de la Semana
 
 ```
-week-07/
+week-07-funciones/
 ├── README.md                          ← Este archivo
 ├── rubrica-evaluacion.md              ← Criterios de evaluación
 ├── 0-assets/                          ← Diagramas SVG
@@ -128,4 +128,4 @@ Consulta [rubrica-evaluacion.md](rubrica-evaluacion.md) para los criterios detal
 
 | Anterior                                    | Siguiente                                   |
 | ------------------------------------------- | ------------------------------------------- |
-| [← Semana 06: Bucles](../week-06/README.md) | [Semana 08: Arrays →](../week-08/README.md) |
+| [← Semana 06: Bucles](../week-06-bucles/README.md) | [Semana 08: Arrays →](../week-08-arrays/README.md) |

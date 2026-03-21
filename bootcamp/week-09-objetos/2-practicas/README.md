@@ -22,10 +22,10 @@ Cada ejercicio tiene su propia carpeta con `starter/index.js` y `solution/index.
 
 ```bash
 # Ejecutar el starter de cualquier ejercicio
-node bootcamp/week-09/2-practicas/ejercicio-01-crear-acceder/starter/index.js
+node bootcamp/week-09-objetos/2-practicas/ejercicio-01-crear-acceder/starter/index.js
 
 # O navegar al directorio y ejecutar directamente
-cd bootcamp/week-09/2-practicas/ejercicio-01-crear-acceder/starter
+cd bootcamp/week-09-objetos/2-practicas/ejercicio-01-crear-acceder/starter
 node index.js
 ```
 

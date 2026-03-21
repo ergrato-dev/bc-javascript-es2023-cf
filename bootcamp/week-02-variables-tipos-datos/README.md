@@ -26,7 +26,7 @@ Al finalizar esta semana, serás capaz de:
 ## 🗂️ Estructura de la Semana
 
 ```
-week-02/
+week-02-variables-tipos-datos/
 ├── README.md                         # Este archivo
 ├── rubrica-evaluacion.md             # Criterios de evaluación
 ├── 0-assets/                         # Diagramas y recursos visuales
@@ -119,5 +119,5 @@ Script de consola que declara variables con `const`/`let`, aplica `typeof`, real
 
 ## 🔗 Navegación
 
-⬅️ [Semana 1: ¿Qué es programar?](../week-01/README.md)
-➡️ [Semana 3: Operadores y Expresiones](../week-03/README.md)
+⬅️ [Semana 1: ¿Qué es programar?](../week-01-que-es-programar/README.md)
+➡️ [Semana 3: Operadores y Expresiones](../week-03-operadores-expresiones/README.md)

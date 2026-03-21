@@ -30,7 +30,7 @@ Al finalizar esta semana serás capaz de:
 ## 🗂️ Estructura de la semana
 
 ```
-week-06/
+week-06-bucles/
 ├── README.md                                ← estás aquí
 ├── rubrica-evaluacion.md
 ├── 0-assets/                                ← diagramas SVG
@@ -125,4 +125,4 @@ Viernes   → Proyecto + Recursos                  (~2.5 h)
 
 | ← Anterior                                      | Actual               | Siguiente →                                 |
 | ----------------------------------------------- | -------------------- | ------------------------------------------- |
-| [Week 05 — Condicionales](../week-05/README.md) | **Week 06 — Bucles** | [Week 07 — Funciones](../week-07/README.md) |
+| [Week 05 — Condicionales](../week-05-condicionales/README.md) | **Week 06 — Bucles** | [Week 07 — Funciones](../week-07-funciones/README.md) |

@@ -12,7 +12,7 @@ El desarrollo de contenidos para cada semana **DEBE** seguir este orden estricto
 
 ### 1️⃣ README de la Semana
 
-**Archivo**: `bootcamp/week-XX/README.md`
+**Archivo**: `bootcamp/week-XX-tema-principal/README.md`
 
 **Contenido requerido**:
 - Título y descripción general
@@ -30,7 +30,7 @@ El desarrollo de contenidos para cada semana **DEBE** seguir este orden estricto
 
 ### 2️⃣ Rúbrica de Evaluación
 
-**Archivo**: `bootcamp/week-XX/rubrica-evaluacion.md`
+**Archivo**: `bootcamp/week-XX-tema-principal/rubrica-evaluacion.md`
 
 **Contenido requerido**:
 - Criterios de evaluación por tipo de evidencia:
@@ -47,7 +47,7 @@ El desarrollo de contenidos para cada semana **DEBE** seguir este orden estricto
 
 ### 3️⃣ Teoría
 
-**Carpeta**: `bootcamp/week-XX/1-teoria/`
+**Carpeta**: `bootcamp/week-XX-tema-principal/1-teoria/`
 
 **Archivos**: `01-tema.md`, `02-tema.md`, etc.
 
@@ -74,7 +74,7 @@ El desarrollo de contenidos para cada semana **DEBE** seguir este orden estricto
 
 ### 4️⃣ Assets (y vincularlos a teoría)
 
-**Carpeta**: `bootcamp/week-XX/0-assets/`
+**Carpeta**: `bootcamp/week-XX-tema-principal/0-assets/`
 
 **Archivos**:
 - SVG diagrams (`01-nombre.svg`, `02-nombre.svg`, etc.)
@@ -107,7 +107,7 @@ El desarrollo de contenidos para cada semana **DEBE** seguir este orden estricto
 
 ### 5️⃣ Práctica Guiada
 
-**Carpeta**: `bootcamp/week-XX/2-practicas/`
+**Carpeta**: `bootcamp/week-XX-tema-principal/2-practicas/`
 
 **Estructura**:
 ```
@@ -159,7 +159,7 @@ const result = null; // TODO: Implementar
 
 ### 6️⃣ Proyecto (ÚNICO ENTREGABLE OBLIGATORIO)
 
-**Carpeta**: `bootcamp/week-XX/3-proyecto/`
+**Carpeta**: `bootcamp/week-XX-tema-principal/3-proyecto/`
 
 > **🎯 ÚNICO ENTREGABLE**: El proyecto es el **único entregable obligatorio** de cada semana. Las prácticas y teoría son materiales de estudio que preparan para este proyecto.
 
@@ -315,7 +315,7 @@ El estudiante debe:
 
 ### 7️⃣ Recursos (completos)
 
-**Carpeta**: `bootcamp/week-XX/4-recursos/`
+**Carpeta**: `bootcamp/week-XX-tema-principal/4-recursos/`
 
 **Subcarpetas**:
 - `ebooks-free/` - Libros gratuitos relevantes
@@ -345,7 +345,7 @@ El estudiante debe:
 
 ### 8️⃣ Glosario
 
-**Carpeta**: `bootcamp/week-XX/5-glosario/`
+**Carpeta**: `bootcamp/week-XX-tema-principal/5-glosario/`
 
 **Archivo**: `README.md`
 
@@ -482,5 +482,47 @@ Antes de considerar una semana completa:
 
 ---
 
-_Última actualización: Febrero 2026_
-_Versión: 1.0_
+## 📌 Convención de Nombres de Carpetas Semanales
+
+### Esquema: `week-XX-tema-principal`
+
+**Decisión adoptada**: Marzo 2026
+
+Las carpetas de cada semana siguen el esquema `week-XX-tema-principal` (kebab-case), donde:
+
+- `XX` — número de semana con cero a la izquierda (01, 02, … 34)
+- `tema-principal` — slug descriptivo del tema central de la semana, extraído de su `README.md`
+
+### Mapeo actual (Etapa 0)
+
+| Carpeta | Tema |
+|---|---|
+| `week-01-que-es-programar` | ¿Qué es programar? Mi primer JavaScript |
+| `week-02-variables-tipos-datos` | Variables y Tipos de Datos |
+| `week-03-operadores-expresiones` | Operadores y Expresiones |
+| `week-04-strings-template-literals` | Strings y Template Literals |
+| `week-05-condicionales` | Condicionales |
+| `week-06-bucles` | Bucles — Repetición |
+| `week-07-funciones` | Funciones |
+| `week-08-arrays` | Arrays |
+| `week-09-objetos` | Objetos |
+| `week-10-proyecto-integrador` | Proyecto Integrador — Etapa 0 |
+
+### Razón de la decisión
+
+- **Legibilidad**: el nombre de carpeta comunica el tema sin necesidad de abrir el README
+- **Navegación**: facilita encontrar semanas por tema en el explorador de archivos y GitHub
+- **Escalabilidad**: aplicable a las 34 semanas del bootcamp manteniendo orden numérico
+- **Convención**: kebab-case, sin tildes ni caracteres especiales, consistente con el resto del proyecto
+
+### Reglas para nuevas semanas
+
+1. Extraer el tema del título `# Semana XX: Título` del `README.md`
+2. Convertir a kebab-case, eliminar tildes y caracteres especiales
+3. Mantener slug corto y descriptivo (máximo 4 palabras clave)
+4. Actualizar todos los enlaces de navegación cruzada entre semanas
+
+---
+
+_Última actualización: Marzo 2026_
+_Versión: 1.1_

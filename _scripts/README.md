@@ -62,11 +62,11 @@ Impact: Ensures continuous backup and detailed history
 
 | Type    | When                  | Example                         |
 | ------- | --------------------- | ------------------------------- |
-| `feat`  | New files created     | `feat(week-05): add 3 files`    |
+| `feat`  | New files created     | `feat(week-05-condicionales): add 3 files`    |
 | `docs`  | Documentation changes | `docs(readme): update 1 files`  |
 | `chore` | Config/maintenance    | `chore(config): update 2 files` |
 | `style` | Asset changes         | `style(assets): update 1 files` |
-| `test`  | Test files            | `test(week-10): update 2 files` |
+| `test`  | Test files            | `test(week-10-proyecto-integrador): update 2 files` |
 
 ### Scopes
 

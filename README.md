@@ -228,7 +228,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 </p>
 
 <p align="center">
-  <a href="bootcamp/week-01">Comenzar Semana 1</a> •
+  <a href="bootcamp/week-01-que-es-programar">Comenzar Semana 1</a> •
   <a href="_docs">Ver Documentación</a> •
   <a href="https://github.com/ergrato-dev/bc-javascript-es2023-cf/issues">Reportar Issue</a> •
   <a href="CONTRIBUTING.md">Contribuir</a>
