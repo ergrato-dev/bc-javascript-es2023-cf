@@ -222,6 +222,20 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ---
 
+## ⚠️ Exención de Responsabilidad
+
+Este repositorio y todo su contenido se proporcionan **"tal cual"** con fines **exclusivamente educativos**.
+
+- El material de este bootcamp es de carácter formativo. El autor y los colaboradores **no garantizan** resultados específicos de aprendizaje, empleo o desempeño profesional derivados del uso de este contenido.
+- Los ejemplos de código incluidos tienen propósito didáctico. **No deben usarse directamente en entornos de producción** sin la revisión y adaptación adecuadas.
+- Las referencias a herramientas, librerías, servicios externos o recursos de terceros se incluyen únicamente como orientación. El autor **no se responsabiliza** por cambios, interrupciones o contenidos de dichos recursos externos.
+- El autor **no asume ninguna responsabilidad** por daños directos, indirectos, incidentales o consecuentes derivados del uso o la imposibilidad de uso de este material.
+- El uso de este repositorio implica la aceptación de los términos de la [Licencia MIT](LICENSE) bajo la cual se distribuye.
+
+> Este proyecto es independiente y **no está afiliado, patrocinado ni respaldado** por ninguna empresa tecnológica mencionada en el contenido (Mozilla, Google, Microsoft, etc.).
+
+---
+
 <p align="center">
   <strong>🎓 Bootcamp JavaScript Moderno (ES2023)</strong><br>
   <em>De cero a desarrollador JavaScript Junior en ~8.5 meses</em>
