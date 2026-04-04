@@ -1,0 +1,26 @@
+{
+  "name": "bc-javascript-es2023",
+  "version": "1.0.0",
+  "description": "Bootcamp JavaScript Moderno (ES2023) — De cero a desarrollador Junior en 34 semanas",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": "20.x || 22.x || 24.x",
+    "pnpm": "9.x || 10.x"
+  },
+  "scripts": {
+    "lint": "eslint bootcamp/ _scripts/",
+    "lint:fix": "eslint bootcamp/ _scripts/ --fix",
+    "format": "prettier --write \"**/*.{js,md,json}\" --ignore-path .gitignore",
+    "format:check": "prettier --check \"**/*.{js,md,json}\" --ignore-path .gitignore",
+    "validate:svg": "node _scripts/validate-svg.js",
+    "audit": "pnpm audit --audit-level=moderate"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "eslint": "10.2.0",
+    "globals": "17.4.0",
+    "prettier": "3.8.1"
+  },
+  "packageManager": "pnpm@10.7.0"
+}

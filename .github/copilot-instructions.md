@@ -679,23 +679,45 @@ Cuando trabajes en este proyecto:
 
 2. **Gestión de Paquetes**
    - ❌ **NUNCA usar `npm`** para instalar paquetes
-   - ✅ **SOLO usar `pnpm` o `yarn`** como gestores de paquetes
+   - ✅ **SOLO usar `pnpm`** como gestor de paquetes
    - Razón: Mejor rendimiento, gestión de dependencias más eficiente
-   - Comandos recomendados:
 
-     ```bash
-     # Instalar dependencias
-     pnpm install
-     # o
-     yarn install
+   ```bash
+   # Instalar dependencias
+   pnpm install
 
-     # Agregar paquete
-     pnpm add <paquete>
-     # o
-     yarn add <paquete>
-     ```
+   # Agregar paquete de desarrollo (con versión EXACTA)
+   pnpm add -D <paquete>@<versión-exacta>
+   ```
 
-3. **Base de Datos**
+3. **🔒 REGLA DE ORO — Versionado Exacto de Dependencias**
+
+   **PROHIBIDO en `package.json`:**
+   ```json
+   // ❌ MAL — permite actualizaciones silenciosas con posibles CVEs
+   "eslint": "^10.0.0"
+   "prettier": ">=3.0.0"
+   "some-lib": "~2.1.0"
+   ```
+
+   **OBLIGATORIO — versiones exactas:**
+   ```json
+   // ✅ BIEN — versión fija, builds reproducibles, CVE predecibles
+   "eslint": "10.2.0"
+   "prettier": "3.8.1"
+   "some-lib": "2.1.4"
+   ```
+
+   **Por qué:**
+   - `^` y `>=` permiten que `pnpm install` actualice silenciosamente a versiones con CVEs no auditados
+   - Las versiones exactas garantizan que CI/CD y todos los desarrolladores usan exactamente el mismo código
+   - El `pnpm-lock.yaml` **siempre** debe estar versionado en Git (nunca en `.gitignore`)
+   - `.npmrc` del proyecto ya incluye `save-exact=true` — cualquier `pnpm add` respeta esta regla
+
+   **Auditoría:** ejecutar `pnpm audit` antes de cada release o al incorporar nuevas dependencias.
+   Resultado del último audit (2026-04-04): **0 vulnerabilidades encontradas**
+
+4. **Base de Datos**
    - ✅ **USAR SQLite** cuando se necesite base de datos relacional
    - Razón: Facilidad de configuración, sin servidor, perfecto para aprendizaje
    - SQLite es ideal para:
@@ -705,12 +727,12 @@ Cuando trabajes en este proyecto:
    - No requiere instalación de servidor de base de datos
    - Archivo único, fácil de compartir y versionar
 
-4. **Comenta el código de manera educativa**
+5. **Comenta el código de manera educativa**
    - Explica conceptos para principiantes
    - Incluye referencias a documentación cuando sea útil
    - Usa comentarios que enseñen, no solo describan
 
-5. **Proporciona ejemplos completos y funcionales**
+6. **Proporciona ejemplos completos y funcionales**
    - Código que se pueda copiar y ejecutar
    - Incluye casos de uso realistas
    - Muestra tanto lo que se debe hacer como lo que se debe evitar

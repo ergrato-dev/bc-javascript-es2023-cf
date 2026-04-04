@@ -24,10 +24,13 @@ lerna-debug.log*
 # Dependency directories
 jspm_packages/
 
-# Package manager lock files (opcional - descomentar si no quieres versionarlos)
-# package-lock.json
-# yarn.lock
-# pnpm-lock.yaml
+# Package manager lock files
+# ✅ REGLA DE ORO: pnpm-lock.yaml SIEMPRE se versiona (no comentar).
+# El lockfile es la única garantía de builds reproducibles y CVE-free.
+# package-lock.json y yarn.lock se ignoran porque usamos pnpm exclusivamente.
+package-lock.json
+yarn.lock
+# pnpm-lock.yaml  <-- NO ignorar, debe estar en el repositorio
 
 # ============================================
 # Variables de Entorno

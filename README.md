@@ -3,11 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ergrato-dev/bc-javascript-es2023/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License MIT"></a>
+  <a href="https://github.com/ergrato-dev/bc-javascript-es2023-cf/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg" alt="License CC BY-NC-SA 4.0"></a>
   <a href="#"><img src="https://img.shields.io/badge/semanas-34-yellow.svg" alt="34 Semanas"></a>
   <a href="#"><img src="https://img.shields.io/badge/horas-272-orange.svg" alt="272 Horas"></a>
   <a href="#"><img src="https://img.shields.io/badge/JavaScript-ES2023-F7DF1E?logo=javascript" alt="JavaScript ES2023"></a>
-  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PRs Welcome"></a>
 </p>
 
 <p align="center">
@@ -164,28 +163,15 @@ Cada semana incluye tres tipos de evidencias:
 
 ---
 
-## 🤝 Contribuir
+## 🤝 Forks Educativos
 
-¡Las contribuciones son bienvenidas! Este es un proyecto educativo de código abierto.
+Este contenido se distribuye bajo **CC BY-NC-SA 4.0**: puedes usarlo, adaptarlo y redistribuirlo libremente con fines educativos, siempre que:
 
-### Cómo Contribuir
+- Des crédito al autor original
+- No lo uses con fines comerciales
+- Compartas cualquier derivado bajo la misma licencia
 
-1. Lee la [Guía de Contribución](CONTRIBUTING.md)
-2. Revisa el [Código de Conducta](CODE_OF_CONDUCT.md)
-3. Fork del repositorio
-4. Crea tu rama (`git checkout -b feature/nueva-funcionalidad`)
-5. Commit con [Conventional Commits](https://www.conventionalcommits.org/) (`git commit -m 'feat: add new exercise'`)
-6. Push a la rama (`git push origin feature/nueva-funcionalidad`)
-7. Abre un Pull Request
-
-### 📋 Áreas de Contribución
-
-- ✨ Ejercicios adicionales
-- 📚 Mejoras en documentación
-- 🐛 Corrección de errores
-- 🎨 Recursos visuales (diagramas SVG)
-- 🌐 Traducciones
-- 📹 Videos tutoriales
+Para reportar errores o sugerencias: [GitHub Issues](https://github.com/ergrato-dev/bc-javascript-es2023-cf/issues)
 
 ---
 
@@ -199,7 +185,9 @@ Cada semana incluye tres tipos de evidencias:
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la licencia **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** — ver el archivo [LICENSE](LICENSE) para más detalles.
+
+[![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
 
@@ -216,9 +204,8 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 ## 📚 Documentación Adicional
 
 - [🤖 Instrucciones de Copilot](.github/copilot-instructions.md)
-- [🤝 Guía de Contribución](CONTRIBUTING.md)
-- [📜 Código de Conducta](CODE_OF_CONDUCT.md)
-- [🔒 Política de Seguridad](SECURITY.md)
+- [📖 Plan de Estudios](_docs/plan-estudios.md)
+- [📋 Guía de Desarrollo de Contenidos](_docs/guia-desarrollo-contenidos.md)
 
 ---
 
@@ -230,7 +217,7 @@ Este repositorio y todo su contenido se proporcionan **"tal cual"** con fines **
 - Los ejemplos de código incluidos tienen propósito didáctico. **No deben usarse directamente en entornos de producción** sin la revisión y adaptación adecuadas.
 - Las referencias a herramientas, librerías, servicios externos o recursos de terceros se incluyen únicamente como orientación. El autor **no se responsabiliza** por cambios, interrupciones o contenidos de dichos recursos externos.
 - El autor **no asume ninguna responsabilidad** por daños directos, indirectos, incidentales o consecuentes derivados del uso o la imposibilidad de uso de este material.
-- El uso de este repositorio implica la aceptación de los términos de la [Licencia MIT](LICENSE) bajo la cual se distribuye.
+- El uso de este repositorio implica la aceptación de los términos de la [licencia CC BY-NC-SA 4.0](LICENSE) bajo la cual se distribuye.
 
 > Este proyecto es independiente y **no está afiliado, patrocinado ni respaldado** por ninguna empresa tecnológica mencionada en el contenido (Mozilla, Google, Microsoft, etc.).
 
@@ -244,8 +231,7 @@ Este repositorio y todo su contenido se proporcionan **"tal cual"** con fines **
 <p align="center">
   <a href="bootcamp/week-01-que-es-programar">Comenzar Semana 1</a> •
   <a href="_docs">Ver Documentación</a> •
-  <a href="https://github.com/ergrato-dev/bc-javascript-es2023-cf/issues">Reportar Issue</a> •
-  <a href="CONTRIBUTING.md">Contribuir</a>
+  <a href="https://github.com/ergrato-dev/bc-javascript-es2023-cf/issues">Reportar Issue</a>
 </p>
 
 <p align="center">

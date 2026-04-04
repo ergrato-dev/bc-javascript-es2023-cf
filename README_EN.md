@@ -3,11 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ergrato-dev/bc-javascript-es2023/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License MIT"></a>
+  <a href="https://github.com/ergrato-dev/bc-javascript-es2023-cf/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey.svg" alt="License CC BY-NC-SA 4.0"></a>
   <a href="#"><img src="https://img.shields.io/badge/weeks-28-yellow.svg" alt="28 Weeks"></a>
   <a href="#"><img src="https://img.shields.io/badge/hours-224-orange.svg" alt="224 Hours"></a>
   <a href="#"><img src="https://img.shields.io/badge/JavaScript-ES2023-F7DF1E?logo=javascript" alt="JavaScript ES2023"></a>
-  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square" alt="PRs Welcome"></a>
 </p>
 
 <p align="center">
@@ -162,28 +161,15 @@ Each week includes three types of evidence:
 
 ---
 
-## 🤝 Contributing
+## 🤝 Educational Forks
 
-Contributions are welcome! This is an open-source educational project.
+This content is distributed under **CC BY-NC-SA 4.0**: you can use, adapt, and redistribute it freely for educational purposes, as long as you:
 
-### How to Contribute
+- Give appropriate credit to the original author
+- Do not use it for commercial purposes
+- Share any derivative work under the same license
 
-1. Read the [Contributing Guide](CONTRIBUTING.md)
-2. Review the [Code of Conduct](CODE_OF_CONDUCT.md)
-3. Fork the repository
-4. Create your branch (`git checkout -b feature/new-feature`)
-5. Commit with [Conventional Commits](https://www.conventionalcommits.org/) (`git commit -m 'feat: add new exercise'`)
-6. Push to the branch (`git push origin feature/new-feature`)
-7. Open a Pull Request
-
-### 📋 Contribution Areas
-
-- ✨ Additional exercises
-- 📚 Documentation improvements
-- 🐛 Bug fixes
-- 🎨 Visual resources (SVG diagrams)
-- 🌐 Translations
-- 📹 Video tutorials
+To report errors or suggestions: [GitHub Issues](https://github.com/ergrato-dev/bc-javascript-es2023-cf/issues)
 
 ---
 
@@ -197,7 +183,9 @@ Contributions are welcome! This is an open-source educational project.
 
 ## 📄 License
 
-This project is under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license — see the [LICENSE](LICENSE) file for details.
+
+[![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ---
 
@@ -214,9 +202,8 @@ This project is under the MIT License - see the [LICENSE](LICENSE) file for deta
 ## 📚 Additional Documentation
 
 - [🤖 Copilot Instructions](.github/copilot-instructions.md)
-- [🤝 Contributing Guide](CONTRIBUTING.md)
-- [📜 Code of Conduct](CODE_OF_CONDUCT.md)
-- [🔒 Security Policy](SECURITY.md)
+- [📖 Study Plan](_docs/plan-estudios.md)
+- [📋 Content Development Guide](_docs/guia-desarrollo-contenidos.md)
 
 ---
 
@@ -228,7 +215,7 @@ This repository and all its contents are provided **"as is"** for **educational 
 - The code examples included are for teaching purposes. **They should not be used directly in production environments** without proper review and adaptation.
 - References to tools, libraries, external services, or third-party resources are included as guidance only. The author **is not responsible** for changes, outages, or the content of such external resources.
 - The author **assumes no liability** for direct, indirect, incidental, or consequential damages arising from the use of or inability to use this material.
-- Use of this repository implies acceptance of the terms of the [MIT License](LICENSE) under which it is distributed.
+- Use of this repository implies acceptance of the terms of the [CC BY-NC-SA 4.0 License](LICENSE) under which it is distributed.
 
 > This project is independent and **is not affiliated with, sponsored by, or endorsed by** any technology company mentioned in the content (Mozilla, Google, Microsoft, etc.).
 
@@ -242,8 +229,7 @@ This repository and all its contents are provided **"as is"** for **educational 
 <p align="center">
   <a href="bootcamp/week-01-que-es-programar">Start Week 1</a> •
   <a href="_docs">View Documentation</a> •
-  <a href="../../issues">Report Issue</a> •
-  <a href="CONTRIBUTING.md">Contribute</a>
+  <a href="../../issues">Report Issue</a>
 </p>
 
 <p align="center">
