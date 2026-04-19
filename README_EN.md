@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="_assets/bootcamp-header.svg" alt="Bootcamp JavaScript ES2023" width="800">
+  <img src="assets/bootcamp-header.svg" alt="Bootcamp JavaScript ES2023" width="800">
 </p>
 
 <p align="center">
@@ -202,8 +202,8 @@ This project is under the **Creative Commons Attribution-NonCommercial-ShareAlik
 ## 📚 Additional Documentation
 
 - [🤖 Copilot Instructions](.github/copilot-instructions.md)
-- [📖 Study Plan](_docs/plan-estudios.md)
-- [📋 Content Development Guide](_docs/guia-desarrollo-contenidos.md)
+- [📖 Study Plan](docs/plan-estudios.md)
+- [📋 Content Development Guide](docs/guia-desarrollo-contenidos.md)
 
 ---
 
@@ -228,7 +228,7 @@ This repository and all its contents are provided **"as is"** for **educational 
 
 <p align="center">
   <a href="bootcamp/week-01-que-es-programar">Start Week 1</a> •
-  <a href="_docs">View Documentation</a> •
+  <a href="docs">View Documentation</a> •
   <a href="../../issues">Report Issue</a>
 </p>
 

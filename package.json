@@ -9,11 +9,11 @@
     "pnpm": "9.x || 10.x"
   },
   "scripts": {
-    "lint": "eslint bootcamp/ _scripts/",
-    "lint:fix": "eslint bootcamp/ _scripts/ --fix",
+    "lint": "eslint bootcamp/ scripts/",
+    "lint:fix": "eslint bootcamp/ scripts/ --fix",
     "format": "prettier --write \"**/*.{js,md,json}\" --ignore-path .gitignore",
     "format:check": "prettier --check \"**/*.{js,md,json}\" --ignore-path .gitignore",
-    "validate:svg": "node _scripts/validate-svg.js",
+    "validate:svg": "node scripts/validate-svg.js",
     "audit": "pnpm audit --audit-level=moderate"
   },
   "devDependencies": {

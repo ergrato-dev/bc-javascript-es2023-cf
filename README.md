@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="_assets/bootcamp-header.svg" alt="Bootcamp JavaScript ES2023" width="800">
+  <img src="assets/bootcamp-header.svg" alt="Bootcamp JavaScript ES2023" width="800">
 </p>
 
 <p align="center">
@@ -204,8 +204,8 @@ Este proyecto está bajo la licencia **Creative Commons Attribution-NonCommercia
 ## 📚 Documentación Adicional
 
 - [🤖 Instrucciones de Copilot](.github/copilot-instructions.md)
-- [📖 Plan de Estudios](_docs/plan-estudios.md)
-- [📋 Guía de Desarrollo de Contenidos](_docs/guia-desarrollo-contenidos.md)
+- [📖 Plan de Estudios](docs/plan-estudios.md)
+- [📋 Guía de Desarrollo de Contenidos](docs/guia-desarrollo-contenidos.md)
 
 ---
 
@@ -230,7 +230,7 @@ Este repositorio y todo su contenido se proporcionan **"tal cual"** con fines **
 
 <p align="center">
   <a href="bootcamp/week-01-que-es-programar">Comenzar Semana 1</a> •
-  <a href="_docs">Ver Documentación</a> •
+  <a href="docs">Ver Documentación</a> •
   <a href="https://github.com/ergrato-dev/bc-javascript-es2023-cf/issues">Reportar Issue</a>
 </p>
 

@@ -14,7 +14,7 @@ export default [
 
   // Configuración base para scripts del proyecto
   {
-    files: ["_scripts/**/*.js"],
+    files: ["scripts/**/*.js"],
     languageOptions: {
       ecmaVersion: 2023,
       sourceType: "module",
